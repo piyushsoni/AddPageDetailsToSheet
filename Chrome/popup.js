@@ -41,6 +41,8 @@ function onSaveClick(e)
     setValue("categories", catStr);
   }
   
+  e.target.disabled = true;
+  e.target.value = "Saving...";
   var sheetWebApp = "https://script.google.com/macros/s/AKfycbwo0ftgCyT7wBSL-8o25BgkJ6V3cNGaVDGjRrAOROQQGyI6rxqJ/exec?";
   var title = document.querySelector("#textTitle").value;
   var url = document.querySelector("#textURL").value;
