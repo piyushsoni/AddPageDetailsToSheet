@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Add Page Details To Sheet</title>
+    <style>
+      body {
+        min-width:400px;
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      .inputbox {
+        float:right;
+        width:300px;
+      }
+      #buttonSubmit {
+        display:inline-block;
+      }
+    </style>
+
+     <script src="scripts/jquery-1.12.4.js"></script>
+     <script src="scripts/jquery-ui.js"></script>     
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="style/jquery-ui.css">
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <div id="main">
+      Title: <input type="text" id="textTitle" class="inputbox"/>
+      <br/>
+      <br/>
+      URL: <input type="text" id="textURL" class="inputbox"/>
+      <br/>
+      <br/>
+      <div class="ui-widget">
+        <label for="tags">Category: </label>
+        <input id="tags" class="inputbox">
+      </div>
+      <br/>
+      <input type="button" value="Save" id="buttonSubmit"/>
+      <br/>
+    </div>
+    <br/>
+  </body>
+</html>
+

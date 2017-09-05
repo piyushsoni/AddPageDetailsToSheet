@@ -1,0 +1,1 @@
+This extension allows the user to add the page Title, URL, and any other details to a self owned Google spreadsheet

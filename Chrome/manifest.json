@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+  
+    "name": "AddPageDetailsToSheet",
+    "description": "This extension allows the user to add the page Title, URL, and any other details to a Google spreadsheet",
+    "version": "1.0",
+    "author": "Piyush Soni",
+
+    "commands": {
+      "_execute_browser_action": {
+        "suggested_key": {
+          "windows": "Ctrl+Shift+Y",
+          "mac": "Command+Shift+Y",
+          "chromeos": "Ctrl+Shift+U",
+          "linux": "Ctrl+Shift+J"
+        }
+      }
+    },
+  
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "https://*/*"
+    ]
+  }
