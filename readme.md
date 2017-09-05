@@ -1,1 +1,1 @@
-This extension allows the user to add the page Title, URL, and any other details to a self owned Google spreadsheet
+This extension allows the user to add the page Title, URL, and any other details to a self owned Google spreadsheet (a Script needs to be hosted via your Sheet's script editor). Currently only available for Chrome. 
